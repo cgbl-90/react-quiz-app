@@ -41,133 +41,93 @@
   },
   {
     "question": "Choose the correct syntax:",
-    "options": {
-      "a": "class App {}",
-      "b": "class App extends React.Component {}",
-      "c": "class App extends Component {}",
-      "d": "React.Component {}",
-      "e": "class App extends React.Component ({})"
-    },
-    "correct": "b"
+    "options": [
+      "class App {}",
+      "class App extends React.Component {}",
+      "class App extends Component {}",
+      "React.Component {}",
+      "class App extends React.Component ({})"
+    ],
+    "correct": "class App extends React.Component {}"
   },
   {
     "question": "What's the difference between properties from states?",
-    "options": {
-      "e": "Properties can be changed, states cannot",
-      "d": "States can be changed, properties cannot"
-    },
-    "correct": "d"
+    "options": [
+      "Properties can be changed, states cannot",
+      "States can be changed, properties cannot"
+    ],
+    "correct": "States can be changed, properties cannot"
   },
   {
     "question": "What class does all components inherit from?",
-    "options": {
-      "a": "ComponentReact",
-      "b": "ReactComponent",
-      "c": "React.Component",
-      "d": "ReactJS.Component",
-      "e": "Component"
-    },
-    "correct": "c"
+    "options": [
+      "ComponentReact",
+      "ReactComponent",
+      "React.Component",
+      "ReactJS.Component",
+      "Component"
+    ],
+    "correct": "React.Component"
   },
   {
     "question": "_____ helps react for keeping their data unidirectional",
-    "options": {
-      "a": "JSX",
-      "b": "Flux",
-      "c": "DOM",
-      "d": "props"
-    },
-    "correct": "b"
+    "options": ["JSX", "Flux", "DOM", "props"],
+    "correct": "Flux"
   },
   {
     "question": "What is the name of React.js developer?",
-    "options": {
-      "a": "Tim Lee",
-      "b": "Jordan Walke",
-      "c": "Jordan Lee"
-    },
-    "correct": "b"
+    "options": ["Tim Lee", "Jordan Walke", "Jordan Lee"],
+    "correct": "Jordan Walke"
   },
   {
     "question": "How many parent HTML tags can be rendered in a React JS component?",
-    "options": {
-      "a": "There are no limits",
-      "b": "No more than 3",
-      "c": "Only one"
-    },
-    "correct": "c"
+    "options": ["There are no limits", "No more than 3", "Only one"],
+    "correct": "Only one"
   },
   {
     "question": "Where is the function correctly passed as a property?",
-    "options": {
-      "a": "argument={someFunction}",
-      "b": "argument=(this.someFunction)",
-      "c": "argument={this.someFunction {}}",
-      "d": "argument={someFunction}",
-      "e": "argument={this.someFunction}"
-    },
-    "correct": "e"
+    "options": [
+      "argument={someFunction}",
+      "argument=(this.someFunction)",
+      "argument={this.someFunction {}}",
+      "argument={someFunction}",
+      "argument={this.someFunction}"
+    ],
+    "correct": "argument={this.someFunction}"
   },
   {
     "question": "Where is the component rendered correctly?",
-    "options": {
-      "a": "<Test />",
-      "b": "</ Test>",
-      "c": "</Test>",
-      "d": "<Test >",
-      "e": "{<Test >}"
-    },
-    "correct": "a"
+    "options": ["<Test />", "</ Test>", "</Test>", "<Test >", "{<Test >}"],
+    "correct": "<Test />"
   },
   {
     "question": "What company created React?",
-    "options": {
-      "a": "Facebook",
-      "b": "Tesla",
-      "c": "NASA",
-      "d": "Twitter"
-    },
-    "correct": "a"
+    "options": ["Facebook", "Tesla", "NASA", "Twitter"],
+    "correct": "Facebook"
   },
   {
     "question": "Everything in react is a _____________",
-    "options": {
-      "a": "Module",
-      "b": "Component",
-      "c": "Method",
-      "d": "Class",
-      "e": "Package"
-    },
-    "correct": "b"
+    "options": ["Module", "Component", "Method", "Class", "Package"],
+    "correct": "Component"
   },
   {
     "question": "In which directory React Components are saved?",
-    "options": {
-      "a": "Inside src/vendor",
-      "b": "Inside vendor",
-      "c": "Inside vendor/components/",
-      "d": "Inside js/components/"
-    },
-    "correct": "d"
+    "options": [
+      "Inside src/vendor",
+      "Inside vendor",
+      "Inside vendor/components/",
+      "Inside js/components/"
+    ],
+    "correct": "Inside js/components/"
   },
   {
     "question": "In react, what is used to pass data to a component from outside?",
-    "options": {
-      "a": "setState",
-      "b": "props",
-      "c": "render with arguments",
-      "d": "PropTypes"
-    },
-    "correct": "b"
+    "options": ["setState", "props", "render with arguments", "PropTypes"],
+    "correct": "props"
   },
   {
     "question": "What is a react.js in MVC?",
-    "options": {
-      "a": "Model",
-      "b": "Controller",
-      "c": "Middleware",
-      "d": "Router"
-    },
-    "correct": "b"
+    "options": ["Model", "Controller", "Middleware", "Router"],
+    "correct": "Controller"
   }
 ]

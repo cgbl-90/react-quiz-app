@@ -4,9 +4,13 @@ import "./App.css";
 
 export default function TestQuestions() {
   let [order, setOrder] = useState(0);
-  let [replies, setReplies] = useState(null);
 
   function updateOrder(event) {
+    event.preventDefault();
+    setOrder(order + 1);
+  }
+
+  function verifyReply(event) {
     event.preventDefault();
     setOrder(order + 1);
   }
@@ -28,7 +32,9 @@ export default function TestQuestions() {
       <div className="card">
         <h3> {data[order - 1].question} </h3>
         {data[order - 1].options.map((option) => (
-          <label type="radio">{option}</label>
+          <button className="btn" onClick={verifyReply}>
+            {option}
+          </button>
         ))}
       </div>
     );

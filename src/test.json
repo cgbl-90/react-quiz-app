@@ -1,61 +1,43 @@
 [
   {
     "question": "Can you code without using Babel?",
-    "options": {
-      "a": "Yes",
-      "b": "No"
-    },
-    "correct": "b"
+    "options": ["Yes", "No"],
+    "correct": "No"
   },
   {
     "question": "How do you address the weight? ",
-    "options": {
-      "a": "{props.weight}",
-      "b": "{this.weight}",
-      "c": "{this.prop.weight}",
-      "d": "{prop.weight}",
-      "e": "{this.props.weight}"
-    },
-    "correct": "e"
+    "options": [
+      "{props.weight}",
+      "{this.weight}",
+      "{this.prop.weight}",
+      "{prop.weight}",
+      "{this.props.weight}"
+    ],
+    "correct": "{this.props.weight}"
   },
   {
     "question": "What method renders the code through React JS components?",
-    "options": {
-      "a": "ReactDOM",
-      "b": "react",
-      "c": "print",
-      "d": "console",
-      "e": "render"
-    },
-    "correct": "e"
+    "options": ["ReactDOM", "react", "print", "console", "render"],
+    "correct": "render"
   },
   {
     "question": "How many components can you add in one website/project?",
-    "options": {
-      "a": "10",
-      "b": "20",
-      "c": "unlimited",
-      "d": "no more than 1"
-    },
-    "correct": "c"
+    "options": ["10", "20", "unlimited", "no more than 1"],
+    "correct": "unlimited"
   },
   {
     "question": "What does the 'webpack' command do?",
-    "options": {
-      "a": "Runs react local development server",
-      "b": "Transpiles all the Javascript down into one file",
-      "c": "A module bundler"
-    },
-    "correct": "c"
+    "options": [
+      "Runs react local development server",
+      "Transpiles all the Javascript down into one file",
+      "A module bundler"
+    ],
+    "correct": "A module bundler"
   },
   {
     "question": "ReactJS uses _____ to increase performance",
-    "options": {
-      "a": "Virtual DOM",
-      "b": "Original DOM",
-      "c": "Both A and B"
-    },
-    "correct": "a"
+    "options": ["Virtual DOM", "Original DOM", "Both A and B"],
+    "correct": "Virtual DOM"
   },
   {
     "question": "Choose the correct syntax:",

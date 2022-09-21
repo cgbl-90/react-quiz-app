@@ -8,7 +8,7 @@ export default function TestQuestions() {
 
   function updateOrder(event) {
     event.preventDefault();
-    setOrder(1);
+    setOrder(order + 1);
   }
 
   if (order === 0) {
@@ -26,8 +26,10 @@ export default function TestQuestions() {
   } else {
     return (
       <div className="card">
-        <h2>{data[order - 1].question}</h2>
-        <button>Next</button>
+        <h3> {data[order - 1].question} </h3>
+        {data[order - 1].options.map((option) => (
+          <label type="radio">{option}</label>
+        ))}
       </div>
     );
   }

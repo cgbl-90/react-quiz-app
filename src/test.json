@@ -1,0 +1,191 @@
+[
+  {
+    "question": "Can you code without using Babel?",
+    "options": {
+      "a": "Yes",
+      "b": "No"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "How do you address the weight? ",
+    "options": {
+      "a": "{props.weight}",
+      "b": "{this.weight}",
+      "c": "{this.prop.weight}",
+      "d": "{prop.weight}",
+      "e": "{this.props.weight}"
+    },
+    "correct": "e"
+  },
+  {
+    "question": "What method renders the code through React JS components?",
+    "options": {
+      "a": "ReactDOM",
+      "b": "react",
+      "c": "print",
+      "d": "console",
+      "e": "render"
+    },
+    "correct": "e"
+  },
+  {
+    "question": "How many components can you add in one website/project?",
+    "options": {
+      "a": "10",
+      "b": "20",
+      "c": "unlimited",
+      "d": "no more than 1"
+    },
+    "correct": "c"
+  },
+  {
+    "question": "What does the 'webpack' command do?",
+    "options": {
+      "a": "Runs react local development server",
+      "b": "Transpiles all the Javascript down into one file",
+      "c": "A module bundler"
+    },
+    "correct": "c"
+  },
+  {
+    "question": "ReactJS uses _____ to increase performance",
+    "options": {
+      "a": "Virtual DOM",
+      "b": "Original DOM",
+      "c": "Both A and B"
+    },
+    "correct": "a"
+  },
+  {
+    "question": "Choose the correct syntax:",
+    "options": {
+      "a": "class App {}",
+      "b": "class App extends React.Component {}",
+      "c": "class App extends Component {}",
+      "d": "React.Component {}",
+      "e": "class App extends React.Component ({})"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "What's the difference between properties from states?",
+    "options": {
+      "e": "Properties can be changed, states cannot",
+      "d": "States can be changed, properties cannot"
+    },
+    "correct": "d"
+  },
+  {
+    "question": "What class does all components inherit from?",
+    "options": {
+      "a": "ComponentReact",
+      "b": "ReactComponent",
+      "c": "React.Component",
+      "d": "ReactJS.Component",
+      "e": "Component"
+    },
+    "correct": "c"
+  },
+  {
+    "question": "_____ helps react for keeping their data unidirectional",
+    "options": {
+      "a": "JSX",
+      "b": "Flux",
+      "c": "DOM",
+      "d": "props"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "What is the name of React.js developer?",
+    "options": {
+      "a": "Tim Lee",
+      "b": "Jordan Walke",
+      "c": "Jordan Lee"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "How many parent HTML tags can be rendered in a React JS component?",
+    "options": {
+      "a": "There are no limits",
+      "b": "No more than 3",
+      "c": "Only one"
+    },
+    "correct": "c"
+  },
+  {
+    "question": "Where is the function correctly passed as a property?",
+    "options": {
+      "a": "argument={someFunction}",
+      "b": "argument=(this.someFunction)",
+      "c": "argument={this.someFunction {}}",
+      "d": "argument={someFunction}",
+      "e": "argument={this.someFunction}"
+    },
+    "correct": "e"
+  },
+  {
+    "question": "Where is the component rendered correctly?",
+    "options": {
+      "a": "<Test />",
+      "b": "</ Test>",
+      "c": "</Test>",
+      "d": "<Test >",
+      "e": "{<Test >}"
+    },
+    "correct": "a"
+  },
+  {
+    "question": "What company created React?",
+    "options": {
+      "a": "Facebook",
+      "b": "Tesla",
+      "c": "NASA",
+      "d": "Twitter"
+    },
+    "correct": "a"
+  },
+  {
+    "question": "Everything in react is a _____________",
+    "options": {
+      "a": "Module",
+      "b": "Component",
+      "c": "Method",
+      "d": "Class",
+      "e": "Package"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "In which directory React Components are saved?",
+    "options": {
+      "a": "Inside src/vendor",
+      "b": "Inside vendor",
+      "c": "Inside vendor/components/",
+      "d": "Inside js/components/"
+    },
+    "correct": "d"
+  },
+  {
+    "question": "In react, what is used to pass data to a component from outside?",
+    "options": {
+      "a": "setState",
+      "b": "props",
+      "c": "render with arguments",
+      "d": "PropTypes"
+    },
+    "correct": "b"
+  },
+  {
+    "question": "What is a react.js in MVC?",
+    "options": {
+      "a": "Model",
+      "b": "Controller",
+      "c": "Middleware",
+      "d": "Router"
+    },
+    "correct": "b"
+  }
+]

@@ -8,6 +8,10 @@ This is a project focused perfecting my knowledge of useState uses.
 2. Shows final score after all questions are answered
 3. Validates if the score is good/bad
 
+# Demo
+
+Public on Netlify: https://react-quiz-by-cgbl.netlify.app/
+
 # React project
 
 In the project directory, you can run:

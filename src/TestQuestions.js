@@ -31,7 +31,15 @@ export default function TestQuestions() {
         <h3>
           I hope you had fun and learned something new! <br />
           Share your feedback about this test, review its code and review all
-          questions on GitHub.
+          questions on{" "}
+          <a
+            href="https://github.com/cgbl-90/react-quiz-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          .
         </h3>
       </div>
     );

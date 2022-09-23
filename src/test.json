@@ -87,18 +87,18 @@
   {
     "question": "Where is the function correctly passed as a property?",
     "options": [
-      "argument={someFunction}",
-      "argument=(this.someFunction)",
-      "argument={this.someFunction {}}",
-      "argument={someFunction}",
-      "argument={this.someFunction}"
+      "argument={ someFunction }",
+      "argument=( this.someFunction )",
+      "argument={ this.someFunction {} }",
+      "argument={ someFunction }",
+      "argument={ this.someFunction }"
     ],
-    "correct": "argument={this.someFunction}"
+    "correct": "argument={ this.someFunction }"
   },
   {
     "question": "Where is the component rendered correctly?",
-    "options": ["<Test />", "</ Test>", "</Test>", "<Test >", "{<Test >}"],
-    "correct": "<Test />"
+    "options": ["<Test / >", "< / Test>", "< / Test>", "<Test >", "{ <Test > }"],
+    "correct": "<Test / >"
   },
   {
     "question": "What company created React?",

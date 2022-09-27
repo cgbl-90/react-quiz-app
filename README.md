@@ -12,6 +12,9 @@ This is a project focused perfecting my knowledge of useState uses.
 
 Public on Netlify: https://react-quiz-by-cgbl.netlify.app/
 
+![image](https://user-images.githubusercontent.com/58992828/192624552-35713b90-240c-426d-a534-f5f732ee5e46.png)
+
+
 # React project
 
 In the project directory, you can run:
